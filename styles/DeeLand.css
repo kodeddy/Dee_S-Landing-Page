@@ -1,0 +1,42 @@
+#p_header {
+    font-family: 'Caveat', cursive;
+    /* color: blueviolet; */
+    font-size: 100px;
+    text-align: center;
+}
+
+#body {
+    background-color: black;
+    /* background-image: url("https://source.unsplash.com/featured/300x201"); */
+}
+
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+}
+
+.logo_img_spin {
+    /* width: 225px; */
+    animation-name: spinning;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    /*linear|ease|ease-in|ease-out|ease-in-out*/animation-timing-function: linear;
+}
+
+.face_img_spin {
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    /*linear|ease|ease-in|ease-out|ease-in-out*/animation-timing-function: linear;
+    /* width: 14%; */
+}
+
+.sketch-underline {
+    background: url(https://joshhall.co/wp-content/uploads/2019/04/sketch-line.png) bottom left no-repeat;
+    background-size: 100% 10px;
+    padding-bottom: 8px;
+}
+
+
+
+
