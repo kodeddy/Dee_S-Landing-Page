@@ -23,6 +23,13 @@
     /*linear|ease|ease-in|ease-out|ease-in-out*/animation-timing-function: linear;
 }
 
+.logo_img_spin:hover {
+    animation-name: spinning;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 .face_img_spin {
     animation-name: spinning;
     animation-duration: 3s;
