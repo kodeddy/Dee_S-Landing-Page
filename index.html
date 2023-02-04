@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
+
     <title>Dee_S</title>
 </head>
 
@@ -36,11 +38,44 @@
         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
             aria-expanded="false">Short Or Long?</button>
         <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="./pages/short_answer.html" target="_self">Short</a></li>
+            <li>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Short Answer! &#127756
+                </button>
+            </li>
+
+            <!-- <li><a class="dropdown-item" href="./pages/short_answer.html" target="_self">Short</a></li> -->
             <li><a class="dropdown-item" href="./pages/long_answer.html">Long</a></li>
         </ul>
-        <!-- <input type="text" class="form-control" aria-label="Text input with dropdown button"> -->
     </div>
+
+    <!-- Use a modal until you fix the rotating images -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-dark" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog tiff_head fs-3">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Caution!</h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+                    Oh, no...I'm sorry!
+                    <br>
+                    <i class="fs-5">This page is currently under construction. Please go back and choose the alternative option.</i>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go
+                        back.</button>
+                    <a href="https://www.the-useless.website/" target="_blank"><button type="button" class="btn btn-primary">No?... Then go waste your time here</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
 
